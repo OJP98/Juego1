@@ -49,3 +49,6 @@ TagManager:
   - name: Item
     uniqueID: 2040674317
     locked: 0
+  - name: Txt
+    uniqueID: 568098751
+    locked: 0
