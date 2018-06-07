@@ -457,7 +457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de2680ffbd031244aaa5ac38318086be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuadro: {fileID: 1988457874590602, guid: 7eb1f948dbcb0994ca7946fa69f0b161, type: 2}
+  cuadro: {fileID: 1884532122150332, guid: 1ad33f738c81f034c8798c29b3f95446, type: 2}
   spawnTime: 0.2
   elapsedTime: 0
 --- !u!114 &1173874350
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490aa1e84eb614c45ad0259ac4ec2c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  personajeTXT: {fileID: 0}
+  personajeTXT: {fileID: 1832361956}
 --- !u!1 &1387200641
 GameObject:
   m_ObjectHideFlags: 0

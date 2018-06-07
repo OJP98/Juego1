@@ -6,6 +6,7 @@ public class Cuadro : MonoBehaviour
 {
     Rigidbody2D rb2d;
     string cuadro;
+    public TextMesh TXT;
 
     // Use this for initialization
     void Start ()
@@ -13,6 +14,7 @@ public class Cuadro : MonoBehaviour
         int random = Random.Range(0, 2);
         cuadro=GameController.contenedor[random];
         Debug.Log(cuadro);
+        TXT.text = cuadro + "";
 
         if (cuadro == GameController.personaje)
         {
