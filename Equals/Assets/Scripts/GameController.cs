@@ -8,12 +8,15 @@ public class GameController : MonoBehaviour
 {
     public static string[] contenedor= new string[3];
     public static string personaje;
-    public Text personajeTXT;
+    private Text personajeTXT;
     public static GameController instance;
 
     // Use this for initialization
     void Start ()
     {
+
+        GameObject.Find("Character").GetComponent<Text>();
+
         instance = this;
 
         if (PlayerPrefs.GetInt("numeros") == 1)
