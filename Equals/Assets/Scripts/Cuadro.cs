@@ -5,12 +5,28 @@ using UnityEngine;
 public class Cuadro : MonoBehaviour
 {
     Rigidbody2D rb2d;
+    string cuadro;
 
     // Use this for initialization
     void Start ()
     {
+        int random = Random.Range(0, 2);
+        cuadro=GameController.contenedor[random];
+        Debug.Log(cuadro);
+
+        if (cuadro == GameController.personaje)
+        {
+            gameObject.tag = "1";
+        }
+        else
+        {
+            gameObject.tag = "2";
+
+        }
+
+
         rb2d = GetComponent<Rigidbody2D>();
-        gameObject.tag = "1";
+        
 
     }
 	
